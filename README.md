@@ -11,6 +11,8 @@ You should then be prompted with the following:
 ![ghci](./ghci_open.PNG)
 
 
+
+## Resources
 Online sources we will be using:
 - [Haskell Book](http://learnyouahaskell.com/introduction)
 
