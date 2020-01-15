@@ -1,2 +1,2 @@
 # Haskell
-All Haskell related material
+Stuff to come...
