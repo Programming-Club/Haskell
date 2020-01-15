@@ -1,6 +1,6 @@
 ## How to install
-[Click Here](https://www.haskell.org/platform/) and click "Download Core (64 bit)". Then follow the instructions untill complete.
-To see if the instilation was successful open the command prompt (if windows) or terminal (if mac) and type the following:
+[Click Here](https://www.haskell.org/platform/) and click "Download Core (64 bit)". Then follow the instructions until complete.
+To see if the instillation was successful open the command prompt (if windows) or terminal (if mac) and type the following:
 ```bash
 ghci
 ```
