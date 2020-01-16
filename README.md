@@ -12,4 +12,5 @@ You should then be prompted with the following:
 ## Resources
 Online sources we will be using:
 - [Haskell Book](http://learnyouahaskell.com/introduction)
+- [Documentation](https://hoogle.haskell.org/)
 
