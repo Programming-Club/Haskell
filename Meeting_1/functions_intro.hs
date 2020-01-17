@@ -75,7 +75,7 @@ succ 8          -- 9
 
 
 -- ** Conditionals **
--- Guess what you will hardly ever use them and I encourage you to try to
+-- Guess what. You will hardly ever use them and I encourage you to try to
 --   only use them when necessary. But how can this be??? Be patient you 
 --   will find out later on...
 
