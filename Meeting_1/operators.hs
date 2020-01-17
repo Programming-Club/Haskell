@@ -1,8 +1,8 @@
--- NOTICE All content in this run must be typed into the haskell cmd
+-- NOTICE All content in this file must be typed into the haskell cmd to work
 -- To open The haskell cmd do the following
---   1) open Command prompt
+--   1) open Command prompt (or terminal on windows)
 --   2) type: ghci
-
+--      ** If the above did not work email me!!!!!! **
 
 -- *** Addition ***
 2 + 15          -- 17
@@ -69,3 +69,4 @@ x ** z          -- 55.90169943749475    Much better :-)
 
 
 
+-- was this confusing. Here is another explanation: http://learnyouahaskell.com/starting-out
