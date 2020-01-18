@@ -11,6 +11,7 @@
 4 / 5           -- 0.8
 4^2             -- 16 (^ is the exponent operator)
 4^3             -- 64 (AKA 4 cubed)
+mod 10 3        -- 1
 
 (4 * 10 ) - 40  -- 0
 
@@ -29,6 +30,7 @@ False || False  -- False
 True || 1       -- Error
 
 
+
 -- Equality
 1 == 1          -- True
 "Josh" == "Sam" -- False
@@ -40,13 +42,22 @@ not True        -- False (not is negation)
 not False       -- True
 
 
+
+
+
 -- ** Info **
 -- To get info about a operator type :info <operator>
 :info + -- we will go in more depth about this in the meeting
 
 
+
+
+
 -- ** Undefined Values **
 pi              -- 3.141592653589793
+
+
+
 
 
 -- ** Using Assignment in ghci **
