@@ -1,5 +1,5 @@
 -- Please review operations.hs first!!!
--- NOTICE All content in this file must be typed into the haskell cmd to work
+-- NOTICE: All content in this file must be typed into the haskell cmd to work
 
 
 

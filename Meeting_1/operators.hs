@@ -1,4 +1,4 @@
--- NOTICE All content in this file must be typed into the haskell cmd to work
+-- NOTICE: All content in this file must be typed into the haskell cmd to work
 -- To open The haskell cmd do the following
 --   1) open Command prompt (or terminal on windows)
 --   2) type: ghci
