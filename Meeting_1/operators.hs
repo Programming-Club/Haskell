@@ -80,4 +80,16 @@ x ** z          -- 55.90169943749475    Much better :-)
 
 
 
+
+-- *** An intro to Haskell types ***
+-- Like all programming languages Haskell has data-types to see a type do the following
+--   in the ghci
+
+:t 'a'      -- 'c' :: Char
+:t True     -- True :: Bool
+:t "Josh"   -- "Josh" :: [Char]   (String is an array for characters we will go over this later!!!)
+:t 7.5      -- 7.6 :: Fractional (ignore the p => p for now)
+:t 6        -- 6 :: Num (ignore the p => p for now)
+
+
 -- was this confusing. Here is another explanation: http://learnyouahaskell.com/starting-out

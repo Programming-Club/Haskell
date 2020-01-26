@@ -97,17 +97,6 @@ doubleHalf x = if x > 100
                     else x * 2
 -- Ohhh much cleaner!
 
--- NOTE: indentation matters!!! the following will not work!!!
-doubleHalf x = if x > 100 
-    then x / 2 
-    else x * 2
-
-
--- but this will..
-doubleHalf x = 
-    if x > 100 
-        then x / 2 
-        else x * 2
 
 
 -- We can nest conditionals
@@ -133,7 +122,7 @@ mult x y = x * y
 -- to call it we did
 mult 3 4        -- 12
 
--- In haskell if we have a function that takes in two arguments if is
+-- In haskell if we have a function that takes in two arguments it is
 --   also an infix function. An infix function is shown below:
 3 `mult` 4      -- 12
 
