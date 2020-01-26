@@ -30,3 +30,13 @@ Below describes how to read each of the meeting files:
 2) [tuples.hs](./Meeting_2/tuples.hs) Creating and using Tuples
 3) [generics.hs](./Meeting_2/generics.hs) Generic Types
 4) [typeclass.hs](./Meeting_2/typeclass.hs) In-depth on Haskell TypeClasses
+
+
+##### Meeting 3
+1) [pattern_matching.hs](./Meeting_3/pattern_matching) Pattern Matching
+2) [recursion.hs](./Meeting_3/recursion) Using pattern matching with recursion
+
+
+##### Meeting 4
+1) [quickSort.hs](./Meeting_4/quickSort) Implementing QuickSort
+2) [mergeSort.hs](./Meeting_4/mergeSort) Implementing MergeSort
