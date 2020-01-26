@@ -23,3 +23,10 @@ Below describes how to read each of the meeting files:
 2) [function_intro.hs](./Meeting_1/functions_intro.hs) An intro to functions in Haskell
 3) [lists.hs](./Meeting_1/lists.hs) Creating lists in Haskell and useful list functions
 3) [list_comprehensions.hs](./Meeting_1/list_comprehensions.hs) An intro to list comprehensions
+
+
+##### Meeting 2
+1) [types.hs](./Meeting_2/types.hs) In-depth on Haskell types
+2) [tuples.hs](./Meeting_2/tuples.hs) Creating and using Tuples
+3) [generics.hs](./Meeting_2/generics.hs) Generic Types
+4) [typeclass.hs](./Meeting_2/typeclass.hs) In-depth on Haskell TypeClasses
