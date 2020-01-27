@@ -142,11 +142,36 @@ elem 'J' "josh"                 -- False
 cycle[1,2,3]            -- PRESS Ctlr + c to stop
 
 take 10 (cycle [1,2,3])     -- WAIT WTF!?!?!? why wasn't it infinite?!?
-                            --  thats because Haskell is lazy! more on
-                            --  this later...
+                            --  thats because Haskell is lazy!
+
+{- Lets take a moment to talk about lazy evaluation. Lazy evaluation is a method 
+    to evaluate a Haskell program. It means that expressions are not evaluated when
+    they are bound to variables, but their evaluation is deferred until their results
+    are needed by other computations. In consequence, arguments are not evaluated before
+    they are passed to a function, but only when their values are actually used.
+
+    Lets see another example:
+-}
+take 10 [1..]       -- [1,2,3,4,5,6,7,8,9,10]
+
+{- In this example the list [1..] is only generated after each take is called. So once take 0
+    is called and the function finishes the rest of the list is never processed. 
+
+    Lets see one more example: -}
+
 -- repeat takes an element and produces an infinite list of just that element
 take 10 (repeat 5)          -- [5,5,5,5,5,5,5,5,5,5]
 
 
 
-{- -}
+{- Lazy evaluation can come in handy when processing large lists because one can easily 
+    only process a portion of the list avoiding needless computations. Lazy evaluation 
+    also makes it possible to define and work with infinite data structures.  
+    
+    DID YOU KNOW??!?!?!
+        Many languages like Java, Python and Racket have a form of lazy evaluation that
+         you can use when processing data. Their implementation is very different form 
+         Haskell's and we will go into more detail on  the pros and cons of this later on.
+         I recommend you choose your favorite language and see how lazy evaluation is 
+         implemented in it. 
+-}
