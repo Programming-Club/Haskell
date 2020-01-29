@@ -39,5 +39,5 @@ Below describes how to read each of the meeting files:
 4) [let_where.hs](./Meeting_3/let_where.hs) Using let and where
 
 ##### Meeting 4
-1) [quickSort.hs](./Meeting_4/quickSort) Implementing QuickSort
-2) [mergeSort.hs](./Meeting_4/mergeSort) Implementing MergeSort
+1) [quickSort.hs](./Meeting_4/quickSort.hs) Implementing QuickSort
+2) [mergeSort.hs](./Meeting_4/mergeSort.hs) Implementing MergeSort
