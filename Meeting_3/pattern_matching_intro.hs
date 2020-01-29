@@ -78,6 +78,7 @@ c       -- 3
 let list = [1,2,3]
 let [a,3,c] = list   -- hmm... no error?!?!?
 a       --  Exception: <interactive>:41:5-18: Non-exhaustive patterns in [a, 3, c]
+-- Perfect! 3 does not = 2 so the match does not hold!!
 
 
 
@@ -99,7 +100,6 @@ c       -- 'c'
 
 
 
--- Perfect! 3 does not = 2 so the match does not hold!!
 
 
 
