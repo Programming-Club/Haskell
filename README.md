@@ -33,9 +33,10 @@ Below describes how to read each of the meeting files:
 
 
 ##### Meeting 3
-1) [pattern_matching.hs](./Meeting_3/pattern_matching) Pattern Matching
-2) [recursion.hs](./Meeting_3/recursion) Using pattern matching with recursion
-
+1) [pattern_matching_intro.hs](./Meeting_3/pattern_matching_intro.hs) An Introduction to Pattern Matching
+2) [pattern_matching_functions.hs](./Meeting_3/pattern_matching_functions.hs) Using Pattern Matching in Functions
+3) [pattern_matching_guards.hs](./Meeting_3/pattern_matching_guards.hs) Using guard clauses in pattern matching
+4) [let_where.hs](./Meeting_3/let_where.hs) Using let and where
 
 ##### Meeting 4
 1) [quickSort.hs](./Meeting_4/quickSort) Implementing QuickSort
