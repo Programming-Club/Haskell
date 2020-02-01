@@ -11,7 +11,7 @@ THE BIG 5:
     1) Rust     => A multi-paradigm system programming language focused on safety, especially safe concurrency
     2) Haskell  => A purely functional programming language with type inference and lazy evaluation
     3) Erlang   => A functional language that is fault-tolerant and deals with high concurrency
-    4) Elixir   => An evolution of Erlang (I highly recommend you take a look at this language)
+    4) Elixir   => An evolution of Erlang mainly used for backend API's
     5) Prolog   => A logic programming language associated with artificial intelligence and computational linguistics
 
     Other languages have bits and pieces of patten matching like case statements, but they are no where
