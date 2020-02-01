@@ -27,7 +27,6 @@ Whereas patterns are a way of making sure a value conforms to some
 --  score holds up. holeScore will take in two parameters: score and par
 holeScore :: Int -> Int -> String
 holeScore strokes par
-    | strokes < 0 = "Lier! You can't have negative strokes!"
     | strokes < par = "Under par"
     | strokes == par = "Level par"
     | otherwise = "Above par"
